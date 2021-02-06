@@ -175,7 +175,7 @@ async function getTreeHistory(req, res, next) {
 }
 
 // initializing routes
-export default function(router) {
+export default function (router) {
   router.route('/start').post(startEventFilter);
 
   router.route('/update').patch(update);
